@@ -1,0 +1,127 @@
+/* 全体の背景色を設定 */
+body {
+  background-color: #f0f4f8; /* 淡い青色 */
+  color: #333333; /* テキストの基本色 */
+  font-family: 'Arial', sans-serif;
+}
+
+/* サイドバーのスタイル */
+[data-testid="stSidebar"] {
+  background-color: #00274d; /* 紺色の背景 */
+  color: #ffffff; /* 白いテキスト */
+  border-right: 1px solid #004080; /* 境界線を追加 */
+}
+
+/* サイドバー内のヘッダー */
+[data-testid="stSidebar"] .css-1d391kg {
+  color: #ffffff; /* 白い文字 */
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* ボタンのスタイル */
+button {
+  background-color: #00509e; /* 鮮やかな青 */
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #003f7f; /* ホバー時の濃い青 */
+}
+
+/* 見出しのスタイル */
+h1, h2, h3, h4 {
+  color: #00274d; /* 紺色 */
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+/* テーブルのスタイル */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+table th {
+  background-color: #00509e; /* 青色のヘッダー */
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* フォーム入力のスタイル */
+input[type="text"], select {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* カードデザイン */
+.st-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+/* ナビゲーションメニュー全体の背景 */
+[data-testid="stSidebar"] {
+  background-color: #00274d; /* 紺色 */
+  color: #ffffff;
+  border-right: 1px solid #004080;
+}
+
+/* ナビゲーションタイトル */
+[data-testid="stSidebar"] h1 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* メニュー項目のスタイル */
+.stButton > button {
+  background-color: #00509e; /* 未選択時: 青色 */
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.stButton > button:hover {
+  background-color: #003f7f; /* ホバー時: 濃い青 */
+}
+
+/* 選択中のメニュー項目 */
+.stButton > button:focus {
+  background-color: #1e90ff; /* 選択時: 鮮やかな青 */
+  color: #ffffff;
+  outline: none;
+  box-shadow: 0 0 10px rgba(30, 144, 255, 0.8); /* 選択項目を強調 */
+}
+
+/* ナビゲーション項目のアイコン */
+.stButton > button svg {
+  margin-right: 0.5rem;
+}

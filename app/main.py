@@ -6,7 +6,11 @@ from app.utils.data_loader import DataLoader
 from app.utils.map_utils import MapUtils
 from app.utils.components import ShowDetailPage
 from app.utils.custom_css import CustomCSS
+import sys
+import os
 
+
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 # ページ全体の設定
 st.set_page_config(page_title="観光アプリ", layout="wide", initial_sidebar_state="expanded")
 # CSSの適用

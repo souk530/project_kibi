@@ -2,10 +2,10 @@ import streamlit as st
 import pandas as pd
 from streamlit_folium import st_folium
 from streamlit_option_menu import option_menu
-from app.utils.data_loader import DataLoader
-from app.utils.map_utils import MapUtils
-from app.utils.components import ShowDetailPage
-from app.utils.custom_css import CustomCSS
+from utils.data_loader import DataLoader
+from utils.map_utils import MapUtils
+from utils.components import ShowDetailPage
+from utils.custom_css import CustomCSS
 import sys
 import os
 
